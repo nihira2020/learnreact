@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import AppHeader from './AppHeader'
+import Employee from './Employee'
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <AppHeader></AppHeader>
         <img src={logo} className="App-logo" alt="logo" />
+        <Employee></Employee>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
